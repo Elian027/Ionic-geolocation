@@ -1,0 +1,7 @@
+{
+  "name": "ionic-gelocation-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
