@@ -46,7 +46,7 @@ export class HomePage {
     });
   }
 
-  openGoogleMaps() {
+  getURL() {
     // Abre Google Maps con las coordenadas actuales
     window.open(`https://www.google.com/maps?q=${this.latitude},${this.longitude}`, '_system');
   }
