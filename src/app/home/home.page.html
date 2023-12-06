@@ -21,11 +21,10 @@ Obtener Ubicación
         <ion-label>Longitud</ion-label>
         <ion-badge color="danger" slot="end">{{longitude}}</ion-badge>
       </ion-item>
-
-      <ion-button (click)="getUrl()">
-        Esta es tu ubicación actual
-      </ion-button>
-
     </ion-list>
+
+    <ion-button (click)="openGoogleMaps()">
+      Esta es tu ubicación actual
+    </ion-button>
   </div>
 </ion-content>
